@@ -1,0 +1,20 @@
+{
+  "id": "princess",
+  "owner": "princess",
+  "group": "princess",
+  "deploy_to": "/srv/princess",
+  "server_roles": ["princess"],
+  "ingredients": {
+    "princess": ["cloudinary.yml"]
+  },
+  "cloudinary": {
+    "staging": {
+      "cloud_name": "cloud_name",
+      "api_key": "api_key"
+    },
+    "production": {
+      "cloud_name": "cloud_name",
+      "api_key": "api_key"
+    }
+  }
+}

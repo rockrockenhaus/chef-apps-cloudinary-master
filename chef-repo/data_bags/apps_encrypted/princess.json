@@ -1,0 +1,11 @@
+{
+  "id": "princess",
+  "cloudinary": {
+    "staging": {
+      "api_secret": "secret"
+    },
+    "production": {
+      "api_secret": "secret"
+    }
+  }
+}
